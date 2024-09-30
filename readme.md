@@ -48,3 +48,10 @@ For the **FSGT2 + Wi-Fi + AT9S pro model**:
 - **Precision**: 88
 - **MAP50**: 88
 - **Recall**: 82
+
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
