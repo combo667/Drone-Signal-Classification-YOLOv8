@@ -46,9 +46,9 @@ This is the final report of the entire project.
 
 # Labelling Spectrogram
 
-![Image Labelling](labelled_image.png)
+![Image Labelling](images/labelled_image.png)
 
-![Using YOLO labeller](labelling_using_yolo_label.png)
+![Using YOLO labeller](images/labelling_using_yolo_label.png)
 
 # Accuracy and Recall Scores
 
