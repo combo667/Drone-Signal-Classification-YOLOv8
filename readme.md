@@ -2,6 +2,10 @@
 
 This project focuses on the classification of drone signals using the YOLOv8 computer vision convolutional neural network (CNN) model. The objective was to accurately classify signals emitted from various drone controllers in real-time, despite mixed signals from multiple drones. Signals were captured using the HackRF Software Defined Radio (SDR) and a dedicated antenna setup, originating from different drone controllers. The raw signals were preprocessed in MATLAB to generate spectrograms, which served as the primary input for training the YOLOv8 model. After labeling the spectrograms, the model was trained to differentiate between the signals, even in overlapping scenarios. To facilitate real-time classification in dynamic environments, a custom wrapper code was developed to integrate the trained YOLOv8 model for live testing, enabling effective identification of drone signals amid simultaneous transmissions. This project showcases the feasibility of utilizing deep learning models like YOLOv8 for real-time drone signal classification, providing an efficient framework for signal identification in complex conditions.
 
+# Module Overview
+![Module Overview](images/module_overview.png)
+
+
 # Project Folders
 
 ## Making_Spectrograms
@@ -36,6 +40,15 @@ This is the final report of the entire project.
 3. For Wi-Fi, FSGT2, and AT9S pro: the center frequency is 2450 MHz.
 4. For RFD900 and HolyBro: the center frequency is 900 MHz.
 5. The dataset has 3200 million (320 crore) samples for each data category mentioned above.
+
+![Spectrogram](images/spectrogram.png)
+
+
+# Labelling Spectrogram
+
+![Image Labelling](labelled_image.png)
+
+![Using YOLO labeller](labelling_using_yolo_label.png)
 
 # Accuracy and Recall Scores
 
