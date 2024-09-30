@@ -1,0 +1,4 @@
+train: D:\data\YOLO_FSGT2\train\images
+val: D:\data\YOLO_FSGT2\val\images
+nc: 3
+names: ['Wi-Fi','FS-GT2','AT9S-Pro']
